@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "risk-carousel-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/riskCarousel/RiskCarouselWebPart.js",
+          "manifest": "./src/webparts/riskCarousel/RiskCarouselWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RiskCarouselWebPartStrings": "lib/webparts/riskCarousel/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
